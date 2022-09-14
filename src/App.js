@@ -68,7 +68,7 @@ function App() {
   };
 
   let [author, setAuthor] = useState({
-    name: "Raj Abishek",
+    name: "Your name",
     address: "1101 Tirupati Apts, C Wing Bhulabhai Desai Road, Jacob Circle",
   });
 
@@ -79,7 +79,7 @@ function App() {
   });
 
   let [accountDetails, setAccountDetails] = useState({
-    holderName: "D Sailesh Dev",
+    holderName: "Account Holder Name",
     number: "009999890917",
     ifsc: "ICIC111122",
     type: "Current",
@@ -260,7 +260,7 @@ function App() {
           textAlign: "center",
         }}
       >
-        Made with ❤️ by <a href="twitter.com/@heedo">Heedo</a> ©2022
+        Made with ❤️ by <a href="https://twitter.com/the_heedo">Heedo</a> ©2022
       </Footer>
     </Layout>
   );
