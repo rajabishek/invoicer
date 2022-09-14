@@ -290,7 +290,7 @@ export default function InvoiceSummary(props) {
                 Add invoice item
               </Button>
             </Col>
-            <Col offset={12} span={6}>
+            <Col offset={16} span={8}>
               <Row>
                 <Col span={12}>Amount</Col>
                 <Col span={12} className="text-right">
